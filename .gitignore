@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+*.env
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Test / Coverage
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+
+# mypy / pylance / pyright
+.mypy_cache/
+.pyre/
+.dmypy.json
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Logs
+*.log
+
+# SQLite
+*.sqlite3
+db.sqlite3
+
+# __init__.py cache
+*.pyc
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Uvicorn / gunicorn reload artifacts
+*.pid
+
+# Static & media (if using)
+staticfiles/
+media/
+
+# Docker
+*.db
+*.bak
+docker-compose.override.yml
