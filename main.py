@@ -37,4 +37,4 @@ def generate_key(
 @app.get('/keys')
 def list_keys(session: Session = Depends(get_session)):
     keys = session.query(ApiKey).all()
-    return keys
+    return keys  
