@@ -38,3 +38,6 @@ def generate_key(
 def list_keys(session: Session = Depends(get_session)):
     keys = session.query(ApiKey).all()
     return keys  
+
+
+
