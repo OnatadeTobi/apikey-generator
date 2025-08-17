@@ -13,4 +13,4 @@ def generate_key(data: KeyRequest):
 
     random_part = secrets.token_urlsafe(data.length)[:data.length]
     key = f"{data.prefix}_{random_part}"
-    return {'apikey': key} 
+    return {'apikey': key}             
